@@ -48,15 +48,15 @@ ul {
 
 }
 
-li {
+/* li {
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
 
-}
+} */
 
-li>a {
+/* li>a {
 
     font-size: 18px;
     color: white;
@@ -66,8 +66,32 @@ li>a {
     transition: 0.5s ease-in;
     text-decoration: none;
 
-}
+} */
 
 li a:hover {
     color: grey;
+}
+
+.box{
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s ease-in;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: auto;
 }
