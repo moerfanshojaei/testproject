@@ -1,0 +1,66 @@
+@font-face {
+    font-family: mainfont;
+    src: url(Lalezar-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(back.jpg);
+    min-height: 109vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: mainfont;
+
+
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    width: 100%;
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: flex-start;
+}
+
+nav li {
+    /* margin: auto; */
+    height: 50px;
+}
+
+nav a {
+    height: 100%;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+
+}
+
+
+
+
+nav a:hover {
+
+    border-radius: 20px;
+}
+
+nav li:last-child {
+    margin-right: auto;
+}
+
+nav img {
+    width: 40px;
+    border-radius: 20px;
+    border: 2px solid white;
+    /* margin-top: 10px; */
+}
