@@ -48,6 +48,7 @@ nav a {
 
 
 nav a:hover {
+    background-color: rgb(28, 28, 27);
 
     border-radius: 20px;
 }
@@ -63,6 +64,9 @@ nav img {
 
 }
 
+/* #menubar {
+    display: none;
+} */
 
 form {
 
@@ -88,4 +92,40 @@ button {
     align-content: center;
     padding: 2.1px;
     color: rgb(55, 54, 54);
+}
+
+.sidebar {
+    position: fixed;
+    background-color: rgb(23, 23, 23);
+    top: 0;
+    right: 0;
+    height: 109vh;
+    width: 250px;
+    z-index: 999;
+    box-shadow: -10px 0 10px rgb(50, 50, 50);
+    align-items: flex-start;
+    justify-self: flex-start;
+    display: none;
+    flex-direction: column;
+}
+
+.sidebar a:hover {
+    background-color: rgb(57, 57, 57);
+    border-radius: 0px;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+@media(max-width : 700px) {
+    .hideOnMobile {
+        display: none;
+    }
+}
+
+@media(min-width : 700px) {
+    .hideOnweb {
+        display: none;
+    }
 }
