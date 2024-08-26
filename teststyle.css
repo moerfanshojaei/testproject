@@ -129,3 +129,18 @@ button {
         display: none;
     }
 }
+
+#inputsearchbox{
+    height: 4vh;
+    border: 10px solid white;
+    opacity: 10%;
+    border-radius: 15%;
+    padding: auto;
+}
+
+button
+{
+    border: 3px solid white;
+    border-radius: 15%;
+    background-color: gray;
+}
